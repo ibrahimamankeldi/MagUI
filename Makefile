@@ -1,6 +1,4 @@
-export PATH := C:/w64devkit/bin:$(PATH)
-
-CXX := C:/w64devkit/bin/g++
+CXX := g++
 
 INCLUDES = -I./include/
 LIBS = -lraylib -lwinmm -lgdi32
